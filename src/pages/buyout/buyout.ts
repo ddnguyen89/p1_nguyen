@@ -17,7 +17,7 @@ import { HomePage } from '../home/home';
 export class BuyoutPage {
 
   itemName: string;
-  itemQuantity: string;
+  itemQuantity: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.itemName = navParams.get('dataName');
